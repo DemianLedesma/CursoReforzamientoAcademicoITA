@@ -1,4 +1,3 @@
-#recupera información sobre peliculas
 prompt=input("Ingrese el nombre de la película, banda musical, o serie: ").lower()
 match prompt:
     case "el padrino":
@@ -34,6 +33,4 @@ match prompt:
     case _:
         info=None
         tipo=None
-
-
 print("No se encontró información" if info is None else f"Resultado sobre {tipo} '{prompt}': \n{info}")
