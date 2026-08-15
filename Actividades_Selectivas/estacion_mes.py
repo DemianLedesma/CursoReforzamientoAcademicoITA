@@ -12,4 +12,32 @@ match mes:
     case _:
         estacion="mes inválido"
 
-print(estacion if estacion=="mes inválido" else f"{mes} pretenece a {estacion}")
+match mes:
+    case 1:
+        mes_p="Enero"
+    case 2:
+        mes_p="Febrero"
+    case 3:
+        mes_p="Marzo"
+    case 4:
+        mes_p="Abril"
+    case 5:
+        mes_p="Mayo"
+    case 6:
+        mes_p="Junio"
+    case 7:
+        mes_p="Julio"
+    case 8:
+        mes_p="Agosto"
+    case 9:
+        mes_p="Septiembre"
+    case 10:
+        mes_p="Octubre"
+    case 11:
+        mes_p="Noviembre"
+    case 12:
+        mes_p="Diciembre"
+    case _:
+        mes_p=None
+
+print(estacion if estacion=="mes inválido" else f"{mes_p} pretenece a {estacion}")
