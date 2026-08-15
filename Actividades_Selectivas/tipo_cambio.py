@@ -46,4 +46,4 @@ match opt:
         res=False
         print("Opción no válida")
 
-if res: print(f"{monto} MXN = {res} {unit}")
+if res: print(f"{monto} MXN = {round(res,2)} {unit}")
