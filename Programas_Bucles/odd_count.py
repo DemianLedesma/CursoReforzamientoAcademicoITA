@@ -5,7 +5,7 @@ n=int(input("INgrese el número tope: "))
 i=1
 while True:
     if i%2!=0:
-        print(i, ", ")
+        print(i, end=", ")
     i+=1
     if i>n:
         break
