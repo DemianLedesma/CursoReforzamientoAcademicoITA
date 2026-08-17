@@ -1,5 +1,6 @@
 # bucle for
-# contar los negativos, positivos y ceros entre los números ingresados por el usuario
+# contar los negativos, positivos y ceros entre los números 
+# ingresados por el usuario
 n=int(input("Ingrese la cantidad de números a evaluar: "))
 negativos=0
 positivos=0
