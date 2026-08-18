@@ -9,5 +9,5 @@ def prime(n):
         return True
 
 num_usr=int(input("Ingrese el número a verificar: "))
-if prime(num_usr): print("Primo")
-else: print("No primo")
+if prime(num_usr): print(f"Su número {num_usr} es primo")
+else: print(f"Su número {num_usr} no es primo")
